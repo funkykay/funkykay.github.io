@@ -63,7 +63,9 @@
                   <a href="https://www.linkedin.com/in/kay-donner/" target="_blank" class="hvr-sweep-to-bottom"><i class="fa-brands fa-linkedin-in"></i><span>LinkedIn</span></a>
                </li>
                <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color04" data-animation-duration="1000" data-animation-delay="700">
-                  <a href="assets/downloads/lebenslauf_kay-donner.pdf" class="hvr-sweep-to-bottom" download><i class="fa-solid fa-download"></i><span data-i18n-content="navigation.cv"></span></a>
+                  <a onclick="navigator.clipboard.writeText(window.location.href)" class="hvr-sweep-to-bottom" download>
+                     <i class="fa-solid fa-link"></i><span data-i18n-content="navigation.copy"></span>
+                  </a>
                </li>
                <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color05" data-animation-duration="1000" data-animation-delay="900">
                   <a id="i18n_button" class="hvr-sweep-to-bottom"><i class="fa-solid fa-language"></i><span data-i18n-content="navigation.language"></span></a>
